@@ -1,11 +1,11 @@
 
-let account =prompt("What is ur username?") ;
-let pass= prompt("Reset password?");
-let email = prompt("Type in your email");
-let password= prompt("Type in your new password.");
-let confirm= prompt("Confirm password.");
+// let account =prompt("What is ur username?") ;
+// let pass= prompt("Reset password?");
+// let email = prompt("Type in your email");
+// let password= prompt("Type in your new password.");
+// let confirm= prompt("Confirm password.");
 
-alert(`${email} you have sucessfully reset your password🎉🎉` )
+// alert(`${email} you have sucessfully reset your password🎉🎉` )
 
 
 

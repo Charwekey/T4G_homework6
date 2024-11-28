@@ -1,10 +1,35 @@
 p{
     border: 2px solid white;
     padding: 20px;
-    border-radius: 50px 20px 50px 20px;
+    border-radius: 50px 20px 10px 20px;
     background-color: rgb(40, 40, 173);
     font-size: large;
     font-weight: 500;
     color: white;
-    margin: 100px;
+    margin: 50px;
 }
+
+h1{
+    color: darkorchid;
+    text-align: center;
+    text-decoration: wavy black;
+}
+img{
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px white;
+   margin: 10px 100px 50px 100px ;
+  
+   animation: slideIn 5s ease-out;
+}
+@keyframes slideIn{
+    from{
+    transform: translateX(-100px);
+    opacity: 0}
+    to{
+      transform: translateX(0);
+      opacity: 1;
+    }
+   }
